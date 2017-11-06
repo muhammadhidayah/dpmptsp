@@ -1,0 +1,21 @@
+section .galleri {
+	width:40%;
+	margin:20px auto;
+	background:rgba(255,255,255,.7);
+	border-radius:8px
+}
+
+#gallery{
+	padding:10px
+}
+
+#gallery ul{
+	list-style-type:none;
+}
+#gallery ul li{
+	display:inline-block;
+	padding:5px;
+}
+#gallery ul li img:hover{
+	opacity:0.8;
+}
